@@ -1,7 +1,7 @@
 # test-basic-git-commands
 This repository was created to test basic git commands
 
-# Basic Git commands and their application
+## Basic Git commands and their application
 [Git docs](https://git-scm.com/docs)
 
 ## Setup & Configuration
