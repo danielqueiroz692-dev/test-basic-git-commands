@@ -1,17 +1,23 @@
+value1 = 10;
+value2 = 20;
+
 def sum(x, y):
     return x + y;
 
-value1 = 10;
-value2 = 20;
 result = (sum(value1, value2))
 
 print(result);
 
-def multi(x, y):
+def multiplication(x, y):
     return x * y;
 
-num1 = 10;
-num2 = 20;
-num3 = multi(num1, num2);
+num3 = multiplication(value1, value2);
 
 print(num3);
+
+def subtraction(x, y):
+    return x - y;
+
+sub = subtraction(value1, value2);
+
+print(sub);
