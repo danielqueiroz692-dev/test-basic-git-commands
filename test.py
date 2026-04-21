@@ -1,5 +1,5 @@
 value1 = 10;
-value2 = 20;
+value2 = 0;
 
 def sum(x, y):
     return x + y;
@@ -21,3 +21,12 @@ def subtraction(x, y):
 sub = subtraction(value1, value2);
 
 print(sub);
+
+def division(x, y):
+    if(y == 0):
+        return f"ERRO! Zero division {y}";
+    return x / y;
+
+div = division(value1, value2);
+
+print(div);
